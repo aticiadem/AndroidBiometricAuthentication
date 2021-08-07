@@ -3,12 +3,15 @@
     package="com.adematici.androidbiometricauthentication">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBiometricAuthentication">
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

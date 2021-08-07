@@ -2,15 +2,15 @@ package com.adematici.androidbiometricauthentication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.adematici.androidbiometricauthentication.databinding.ActivityMainBinding
+import com.adematici.androidbiometricauthentication.databinding.ActivitySecondBinding
 
-class MainActivity : AppCompatActivity() {
+class SecondActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivitySecondBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivitySecondBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
 }
